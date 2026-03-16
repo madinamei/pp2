@@ -1,0 +1,4 @@
+Hello, this is sample data.
+Python file handling example.
+New line added.
+Appending more data.
