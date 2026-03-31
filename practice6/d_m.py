@@ -1,4 +1,3 @@
-#Import os Library
 import os
 
 # Create Directory
