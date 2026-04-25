@@ -52,7 +52,7 @@ dy = 0
 # Score, level, speed
 score = 0
 level = 1
-speed = 3
+speed = 2
 
 FOOD_LIFETIME = 7000  # 7 seconds in milliseconds
 
@@ -151,7 +151,7 @@ while True:
 
     # Update level and speed
     level = score // 5 + 1                  # Changed to 5 for better pacing
-    speed = 10 + (level - 1) * 2
+    speed = 5 + (level - 1) * 2
 
     # Draw background
     screen.blit(background_img, (0, 0))
